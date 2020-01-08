@@ -2805,7 +2805,8 @@ html.no-csstransitions .home-content__main {
 }
 
 #clients {
-    background: white;
+    background: #E0E0E0;
+    align-items: center;
 }
 
 /* -------------------------------------------------------------------
