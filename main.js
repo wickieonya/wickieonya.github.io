@@ -78,7 +78,7 @@ $("#inputs").on("click change", function(e) {
 
   let amount = parseFloat(currentInput.textContent).toFixed(2);
 
-  if (amount >= 30000 && amount <= 250000) {
+  if (amount >= 1 && amount <= 250000) {
     $("#loan_amount").css("color", "white");
     // computeInterest(principal, period, rate=9);
 
